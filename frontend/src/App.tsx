@@ -1,9 +1,13 @@
+// eslint-disable-next-line no-use-before-define
 import React from 'react';
-import './App.css';
-import logo from './logo.svg';
+
+import GlobalStyle from './styles/global';
 
 const App: React.FC = () => (
-  <h1>Hello world</h1>
+  <>
+    <h1>Hello world</h1>
+    <GlobalStyle />
+  </>
 );
 
 export default App;
